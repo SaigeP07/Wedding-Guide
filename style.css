@@ -11,15 +11,23 @@ body {
 }
 .heading {
     text-align: center;
-    font-size: 13px;
+    font-size: 20px;
 }
 
 .links {
     display: flex;
     gap: 10px;
     text-align: center;
-    font-size: 10px;
+    font-size: 17px;
     align-items: center;
+}
+.links a:link {
+    text-decoration: none;
+    color: white;
+}
+.links a:visited{
+    text-decoration: none;
+    color: white;
 }
 
 body {
@@ -71,10 +79,6 @@ body {
     text-decoration: none;
 }
 
-.close a:hover {
-    color: blue;
-}
-
 .close a:visited {
     text-decoration: none;
     color: #f7f7f7b6;
@@ -84,5 +88,14 @@ body {
     .msg {
         font-size: 20px;
         max-width: 600px;
+    }
+
+    .heading {
+        font-size: 13px;
+    }
+    
+    .links {
+        font-size: 10px;
+        gap: 8px;
     }
 }
