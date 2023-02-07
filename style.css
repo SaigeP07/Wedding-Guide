@@ -1,5 +1,5 @@
 body {
-    background-color: #F2E7D5;
+    background-color: white;
 }
 
 .navbar {
@@ -9,13 +9,80 @@ body {
     background-color: #393E46;
     color: white;
 }
+.heading {
+    text-align: center;
+    font-size: 13px;
+}
 
 .links {
     display: flex;
     gap: 10px;
+    text-align: center;
+    font-size: 10px;
+    align-items: center;
 }
 
 body {
     margin: 0;
     padding: 0;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.invite {
+    width: 30%;
+    min-width: 500px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #6D9886;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.msg {
+    width: 70%;
+    text-align: center;
+    color: #F7F7F7;
+    font-size: 30px;
+    max-width: 800px;
+}
+
+.close {
+    display: flex;
+    background-color: #393E46;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    color: rgba(240, 240, 240, 0.842);
+    text-decoration: none;
+    
+}
+
+.close a {
+    text-decoration: none;
+}
+
+.close a:hover {
+    color: blue;
+}
+
+.close a:visited {
+    text-decoration: none;
+    color: #f7f7f7b6;
+}
+
+@media screen and (max-width: 500px) {
+    .msg {
+        font-size: 20px;
+        max-width: 600px;
+    }
 }
