@@ -73,6 +73,7 @@ body {
     font-family: 'Sacramento', cursive;
     font-weight: 400;
     width: 400px;
+    font-size: 30px;
 }
 
 .middle-stay p {
@@ -106,8 +107,13 @@ body {
     font-weight: bold;
 }
 
+
 .footer-stay > .msg-stay {
     font-size: 20px;
+}
+
+.footer-stay > .list-stay {
+    font-size: 23px;
 }
 
 
@@ -161,10 +167,11 @@ body {
 .hotel-head {
     text-align: center;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .hotel-body {
-    width: 90%;
+    width: 95%;
     font-size: 22px;
 }
 
