@@ -42,6 +42,20 @@ body {
     padding-bottom: 50px;
 }
 
+.middle-stay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 50%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
 .invite {
     width: 30%;
     min-width: 500px;
@@ -56,7 +70,26 @@ body {
     padding-top: 50px;
 }
 
+.footer-stay {
+    background-color: #6D9886;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    align-items: center;
+}
+
+
 .msg {
+    width: 70%;
+    text-align: center;
+    color: #F7F7F7;
+    font-size: 30px;
+    max-width: 800px;
+}
+
+.msg-stay {
     width: 70%;
     text-align: center;
     color: #F7F7F7;
@@ -84,14 +117,37 @@ body {
     color: #f7f7f7b6;
 }
 
+.hotel {
+    background-color: #f0ece5;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+.hotel-head {
+    text-align: center;
+}
+
 @media screen and (max-width: 500px) {
     .msg {
         font-size: 20px;
         max-width: 600px;
     }
 
+    .msg-stay {
+        font-size: 17px;
+        max-width: 600px;
+        width: 300px;
+    }
+
     .heading {
         font-size: 13px;
+    }
+
+    .middle-stay {
+        font-size: 15px;
+        width: 300px;
     }
     
     .links {
