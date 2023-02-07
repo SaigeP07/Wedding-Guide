@@ -106,6 +106,10 @@ body {
     font-weight: bold;
 }
 
+.footer-stay strong {
+    font-weight: 800;
+}
+
 
 .msg {
     width: 70%;
@@ -161,12 +165,14 @@ body {
 
 .hotel-body {
     width: 90%;
+    font-size: 19px;
 }
 
 @media screen and (max-width: 500px) {
     .msg {
         font-size: 22px;
         max-width: 600px;
+        width: 80%;
     }
 
     .msg-stay {
