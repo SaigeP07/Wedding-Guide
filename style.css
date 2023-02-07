@@ -1,3 +1,12 @@
 body {
-    background-color: antiquewhite;
+    background-color: #6D9886;
+}
+
+.middle {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.carousel-inner {
+    border-radius: 20px;
 }
