@@ -101,7 +101,6 @@ body {
     padding-top: 50px;
     font-weight: bold;
     flex-direction: column;
-    margin: auto;
     align-items: center;
 }
 
@@ -198,7 +197,6 @@ strong > .msg-stay{
     background-color: #f0ece5;
     display: flex;
     flex-direction: column;
-    margin: auto;
     padding: 50px 20px;
     font-family: 'Amatic SC', cursive;
 }
