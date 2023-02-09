@@ -76,6 +76,13 @@ body {
     font-size: 30px;
 }
 
+.middle-stay h3 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    width: 400px;
+    font-size: 30px;
+}
+
 .middle-stay p {
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
@@ -114,6 +121,33 @@ body {
 
 .footer-stay > .list-stay {
     font-size: 23px;
+}
+
+.footer-stay > .vid-pod {
+    color: #f7f7f7;
+    font-weight: bold;
+}
+
+strong > .msg-stay{
+    margin: auto;
+}
+
+
+.footer-videos {
+    background-color: #f0ece5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+
+.footer-videos > .msg-stay {
+    font-size: 20px;
+    color: black;
 }
 
 
@@ -181,8 +215,9 @@ body {
 
 .iten-pictures img {
     border-radius: 15px;
-    box-shadow: 3px 3px 7px black;
+    box-shadow: 3px 3px 7px rgb(24, 24, 24);
     width: 100%;
+    max-width: 500px;
 }
 .hotel-head {
     text-align: center;
@@ -193,6 +228,34 @@ body {
 .hotel-body {
     width: 95%;
     font-size: 22px;
+}
+
+.vid-pod {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    margin: auto;
+    text-align: center;
+    min-width: 90%;
+    padding-top: 30px;
+}
+
+.vid-pod p {
+    font-size: 20px;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.vid-pod > iframe {
+    display: flex;
+    flex: auto;
+    width: 100%;
+    margin: auto;
+    max-width: 500px;
+    min-height: 200px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 7px rgb(24, 24, 24);
 }
 
 @media screen and (max-width: 500px) {
