@@ -73,7 +73,7 @@ body {
     font-family: 'Sacramento', cursive;
     font-weight: 400;
     width: 400px;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .middle-stay h3 {
@@ -100,6 +100,9 @@ body {
     padding-bottom: 50px;
     padding-top: 50px;
     font-weight: bold;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
 }
 
 .footer-stay {
@@ -264,6 +267,23 @@ strong > .msg-stay{
     margin: auto;
     padding: 20px 0;
 }
+
+#weather-text {
+    font-size: 25px;
+    width: 350px;
+}
+
+.report-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.middle-stay > p {
+    font-size: 22px;
+    width: 350px;
+}
+
 @media screen and (max-width: 500px) {
     .msg {
         font-size: 22px;
@@ -291,3 +311,35 @@ strong > .msg-stay{
         gap: 8px;
     }
 }
+
+.fade-in {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
