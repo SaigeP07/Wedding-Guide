@@ -73,7 +73,7 @@ body {
     font-family: 'Sacramento', cursive;
     font-weight: 400;
     width: 400px;
-    font-size: 35px;
+    font-size: 32px;
 }
 
 .middle-stay h3 {
@@ -210,6 +210,10 @@ strong > .msg-stay{
     font-family: 'Amatic SC', cursive;
 }
 
+.iten-pics p {
+    font-weight: bold;
+}
+
 .iten-pictures {
     display: flex;
     flex-direction: column;
@@ -281,7 +285,7 @@ strong > .msg-stay{
 
 .middle-stay > p {
     font-size: 22px;
-    width: 350px;
+    width: 338px;
 }
 
 @media screen and (max-width: 500px) {
